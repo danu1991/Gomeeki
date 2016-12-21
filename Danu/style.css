@@ -227,3 +227,30 @@ h1, h2, h3, h4, h5, h6 {
 .page-top {
 	margin-top: 40px;
 }
+
+.blog-banner {
+	font-size: 50px;
+	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	text-align: left;
+}
+
+.post-body {
+	padding-top: 40px;
+}
+
+.post-body p {
+	font-family: Lora,'Times New Roman',serif;
+    font-size: 20px;
+    -webkit-tap-highlight-color: #0085A1;
+}
+
+.post-body h2, .post-body h3 {
+	font-weight: 700;
+	font-size: 36px;
+    margin-top: 60px;
+}
+
+.post-body img {
+	width: 100%;
+	height: auto;
+}
