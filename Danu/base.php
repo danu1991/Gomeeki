@@ -18,10 +18,18 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-    <div class="container-fluid header-height" role="document">
+	<?php if(is_home()) { echo "<div class='header-img header-img-home'";?> style="background-image:url('<?php echo get_template_directory_uri();?>/assets/images/home-bg.jpg');">
+		<div class="page-title-banner-head"><?php echo get_bloginfo();?>
+		<span class="subheading"><?php bloginfo( 'description' ); ?></span>
+		</div>
+		
+	</div> <?php  } ?>
+    <div class="container-fluid header-height" role="document">  
       <div class="content row">
         <main class="main">
-          <?php include Wrapper\template_path(); ?>
+			<?php if(is_home()) { echo "<div class='page-body container page-top'>"; } ?>
+			<?php include Wrapper\template_path(); ?>
+			<?php if(is_home()) { echo "<ul class='pager'><li class='next'><a href='#'>Older Posts →</a></li></ul></div>"; } ?>
         </main><!-- /.main -->
       </div><!-- /.content -->
     </div><!-- /.wrap -->

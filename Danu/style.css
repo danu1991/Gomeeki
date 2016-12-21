@@ -191,3 +191,39 @@ h1, h2, h3, h4, h5, h6 {
 .sfsi_holders {
 	display: none;
 }
+
+.pager li>a, .pager li>span {
+	font-size: 14px;
+    padding: 15px 25px;
+    background-color: #fff;
+    border-radius: 0;
+	border: 1px solid #ddd;
+	color: #000;
+	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.pager li>a:focus, .pager li>a:hover {
+    color: #fff;
+    background-color: #0085A1;
+    border: 1px solid #0085A1;
+}
+
+.header-img-home {
+	margin-top: -50px;
+}
+
+.subheading {
+	font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    line-height: 1.1;
+    display: block;
+    font-weight: 300;
+    margin: 10px 0 0;
+}
+
+.page-top {
+	margin-top: 40px;
+}
