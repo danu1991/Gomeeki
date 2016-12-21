@@ -155,3 +155,39 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand:hover {
 	color: rgba(255,255,255,.8);
 }
+
+.norm_row { 
+	margin-left: auto;
+    margin-right: auto;
+	position: relative !important;
+	float: none;
+}
+
+.inerCnt img {
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+.inerCnt img:hover {
+	-webkit-filter: grayscale(0); 
+    filter: grayscale(0);
+}
+
+.sfsi_wDiv {
+	text-align: center !important;
+}
+
+.sfsi_wDiv div {
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+}
+
+.copyright {	
+	font-size: 14px;
+    margin-bottom: 0;
+	padding-bottom: 15px;
+}
+
+.sfsi_holders {
+	display: none;
+}
